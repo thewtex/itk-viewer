@@ -16,5 +16,5 @@ find_package(ITK REQUIRED
   )
 include(${ITK_USE_FILE})
 
-add_executable(BloscZarr BloscZarr.cxx)
-target_link_libraries(BloscZarr PUBLIC blosc_static ${ITK_LIBRARIES})
+add_executable(blosc-zarr blosc-zarr.cxx)
+target_link_libraries(blosc-zarr PUBLIC blosc_static ${ITK_LIBRARIES})
